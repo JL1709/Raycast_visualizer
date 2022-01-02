@@ -18,7 +18,8 @@ cd Raycast_visualizer
 make
 ```
 
-#### 3)  Run program, for example:
+#### 3)  Run program
 ```
 ./raycast_visualizer
 ```
+
