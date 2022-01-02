@@ -1,7 +1,7 @@
 # Raycast_visualizer
 This repo provides a program that demonstrates how to create a 3D impression out of a 2D image using [ray casting](https://en.wikipedia.org/wiki/Ray_casting).
 
-![Teaser SMPLify-XMC](demo.png)
+![Teaser Visualizer](demo.png)
 
 Tested on macOS Monterey.
 
