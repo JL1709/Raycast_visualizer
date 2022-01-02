@@ -6,7 +6,7 @@
 /*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 15:28:29 by julian            #+#    #+#             */
-/*   Updated: 2022/01/02 19:35:46 by julian           ###   ########.fr       */
+/*   Updated: 2022/01/02 19:55:04 by julian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	interactive(int key, t_data	*data)
 {	
 	if (key == KEY_ESCAPE)				//exit visualizer
 		exit(0);
-	else if (key == KEY_ANSI_A)			//move to the left
+	else if (key == KEY_ANSI_A)			//rotate to the left
 	{
 		data->pa -= 0.1;
 		if (data->pa < 0)
@@ -24,7 +24,7 @@ int	interactive(int key, t_data	*data)
 		data->pdx = cos(data->pa) * 5;
 		data->pdy = sin(data->pa) * 5;
 	}
-	else if (key == KEY_ANSI_D)			//move to the right
+	else if (key == KEY_ANSI_D)			//rotate to the right
 	{
 		data->pa += 0.1;
 		if (data->pa > 2 * M_PI)

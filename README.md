@@ -22,4 +22,9 @@ make
 ```
 ./raycast_visualizer
 ```
+Press:
+- a - rotate to the left
+- d - rotate to the right
+- w - move foreward
+- s - move backwards
 
