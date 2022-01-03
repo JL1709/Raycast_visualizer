@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 /*
-The following code comes from following the tutorial of 3DSage
+Resources:
 https://www.youtube.com/watch?v=gYRrGTC7GtA
 */
 
